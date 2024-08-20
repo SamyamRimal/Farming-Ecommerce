@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.navbar{
+    background-color: wheat;
+    color: black;    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container li{
+  color: black;
+}
+.container li:hover, .container .on{
+  color: teal;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.navbar ul{
+    text-align: center;
+    list-style-type: none;
+}
+.navbar li{
+    font-size: 19px;
+    display: inline-block;
+    margin-right: 25px;
+}
+.login a{
+    font-family: monospace;
+    font-size: 16px;
+    padding: 8px 20px;
+    background-color:teal;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.container li:hover, .container .on{
+    color: teal;
+  }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; 
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.partner {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0 20px;
+}
+
+.partner img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.partner .info {
+    padding: 20px;
+}
+
+.partner h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.partner p {
+    margin: 0;
+}
+
+.achievements {
+    text-align: center;
+}
+
+.achievements h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.achievement-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.achievement-box {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievement-box img{
+    width: 200px;
+    height: 200px;
+}
+.copyright {
+    background-color:rgb(114, 97, 72); 
+      padding: 10px;
+      color: #FFFFFF;
+      text-align: center;
+    }
